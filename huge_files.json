@@ -1,0 +1,146 @@
+{
+  "totalFiles" : 20,
+  "totalSizeBytes" : 1132850907093,
+  "scanTime" : "2026-10-24T12:03:41.491468Z",
+  "files" : [ {
+    "fileName" : "Docker.raw",
+    "absolutePath" : "/Users/dougcpinheiro/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw",
+    "sizeBytes" : 1099511627776,
+    "formattedSize" : "1,00 TB",
+    "lastModified" : "2026-10-24T12:03:29.156616812Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "rootfs.img",
+    "absolutePath" : "/Users/dougcpinheiro/Library/Application Support/Claude/vm_bundles/claudevm.bundle/rootfs.img",
+    "sizeBytes" : 10737418240,
+    "formattedSize" : "10,00 GB",
+    "lastModified" : "2026-09-15T21:18:05.784385546Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "9d10e8430ae4f721af738f20f7cef7e58b5fcb0491ba8378d7a2360dd511c79b--mactex-20260324.pkg",
+    "absolutePath" : "/Users/dougcpinheiro/Library/Caches/Homebrew/downloads/9d10e8430ae4f721af738f20f7cef7e58b5fcb0491ba8378d7a2360dd511c79b--mactex-20260324.pkg",
+    "sizeBytes" : 6865013189,
+    "formattedSize" : "6,39 GB",
+    "lastModified" : "2026-03-24T18:03:18Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "aula.mp4",
+    "absolutePath" : "/Users/dougcpinheiro/Library/CloudStorage/OneDrive-Pessoal/aula.mp4",
+    "sizeBytes" : 3928166157,
+    "formattedSize" : "3,66 GB",
+    "lastModified" : "2023-06-06T15:41:28Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "n8n.tar",
+    "absolutePath" : "/Users/dougcpinheiro/containers/n8n.tar",
+    "sizeBytes" : 2656782336,
+    "formattedSize" : "2,47 GB",
+    "lastModified" : "2026-06-15T22:28:24.669041739Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "t5-v1_1-xxl-encoder-Q3_K_S.gguf",
+    "absolutePath" : "/Users/dougcpinheiro/ComfyUI-Installs/MyComfy/ComfyUI/models/text_encoders/t5/t5-v1_1-xxl-encoder-Q3_K_S.gguf",
+    "sizeBytes" : 2099467456,
+    "formattedSize" : "1,96 GB",
+    "lastModified" : "2026-06-14T23:58:44.832166471Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "model.pth",
+    "absolutePath" : "/Users/dougcpinheiro/Library/Application Support/tts/tts_models--multilingual--multi-dataset--xtts_v2/model.pth",
+    "sizeBytes" : 1867929118,
+    "formattedSize" : "1,74 GB",
+    "lastModified" : "2026-06-21T09:47:49.981692071Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "model.safetensors",
+    "absolutePath" : "/Users/dougcpinheiro/ComfyUI-Installs/MyComfy/ComfyUI/models/tts/Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/model.safetensors",
+    "sizeBytes" : 682293092,
+    "formattedSize" : "650,69 MB",
+    "lastModified" : "2026-07-12T13:43:01.153046406Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "comfyui-standalone-mac-mps-v0.20.1-env1.tar.gz",
+    "absolutePath" : "/Users/dougcpinheiro/Library/Application Support/Comfy Desktop/download-cache/v0.20.1-env1_mac-mps/comfyui-standalone-mac-mps-v0.20.1-env1.tar.gz",
+    "sizeBytes" : 580674701,
+    "formattedSize" : "553,77 MB",
+    "lastModified" : "2026-06-08T21:13:19.768744013Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "postgresql.tar",
+    "absolutePath" : "/Users/dougcpinheiro/containers/containers/postgresql.tar",
+    "sizeBytes" : 439082496,
+    "formattedSize" : "418,74 MB",
+    "lastModified" : "2026-06-15T22:19:39.491158825Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "Arquitetura_da_Consciência__O_Jardim_do_Vazio.mp4",
+    "absolutePath" : "/Users/dougcpinheiro/Meu Drive/meditation_sounds/Published/Arquitetura_da_Consciência__O_Jardim_do_Vazio.mp4",
+    "sizeBytes" : 413501728,
+    "formattedSize" : "394,35 MB",
+    "lastModified" : "2026-07-17T06:32:56Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "Electron Framework",
+    "absolutePath" : "/Users/dougcpinheiro/Library/Caches/com.microsoft.VSCode.ShipIt/update.Kk0XRRZ/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+    "sizeBytes" : 406605104,
+    "formattedSize" : "387,77 MB",
+    "lastModified" : "2026-10-22T18:19:13Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "Electron Framework",
+    "absolutePath" : "/Users/dougcpinheiro/Documents/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+    "sizeBytes" : 406604896,
+    "formattedSize" : "387,77 MB",
+    "lastModified" : "2026-10-15T03:36:01Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "audiovae.pth",
+    "absolutePath" : "/Users/dougcpinheiro/ComfyUI-Shared/models/tts/VoxCPM/VoxCPM2/audiovae.pth",
+    "sizeBytes" : 376951122,
+    "formattedSize" : "359,49 MB",
+    "lastModified" : "2026-07-11T13:36:01.211729573Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "606bbedf73805cb9758e7b3071e24075.m4a.pcm",
+    "absolutePath" : "/Users/dougcpinheiro/Movies/CapCut/User Data/Cache/recognize/606bbedf73805cb9758e7b3071e24075.m4a.pcm",
+    "sizeBytes" : 345653292,
+    "formattedSize" : "329,64 MB",
+    "lastModified" : "2025-05-16T21:24:05.572705523Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "libtorch_cpu.dylib",
+    "absolutePath" : "/Users/dougcpinheiro/venv/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib",
+    "sizeBytes" : 337911904,
+    "formattedSize" : "322,26 MB",
+    "lastModified" : "2026-07-09T20:41:02.797740870Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "kokoro_v1.onnx",
+    "absolutePath" : "/Users/dougcpinheiro/ComfyUI-Installs/MyComfy/ComfyUI/custom_nodes/comfyui-kokoro/kokoro_v1.onnx",
+    "sizeBytes" : 325532387,
+    "formattedSize" : "310,45 MB",
+    "lastModified" : "2026-07-09T21:53:13.511994152Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "kokoro_v1.onnx",
+    "absolutePath" : "/Users/dougcpinheiro/Documents/ComfyUI/custom_nodes/comfyui-kokoro/kokoro_v1.onnx",
+    "sizeBytes" : 325532387,
+    "formattedSize" : "310,45 MB",
+    "lastModified" : "2025-05-14T22:48:47.133092990Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "claude",
+    "absolutePath" : "/Users/dougcpinheiro/Library/Application Support/Claude/claude-code/2.1.308/a93ded4b1b47/claude.app/Contents/MacOS/claude",
+    "sizeBytes" : 274675680,
+    "formattedSize" : "261,95 MB",
+    "lastModified" : "2026-10-22T03:37:00Z",
+    "owner" : "dougcpinheiro"
+  }, {
+    "fileName" : "model.safetensors",
+    "absolutePath" : "/Users/dougcpinheiro/ComfyUI-Installs/MyComfy/ComfyUI/models/tts/Qwen3-TTS-12Hz-1.7B-CustomVoice/model.safetensors",
+    "sizeBytes" : 269484032,
+    "formattedSize" : "257,00 MB",
+    "lastModified" : "2026-07-12T14:10:14.855768684Z",
+    "owner" : "dougcpinheiro"
+  } ]
+}

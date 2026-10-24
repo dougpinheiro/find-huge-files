@@ -1,0 +1,4 @@
+#!/bin/bash
+# Command-line wrapper for Find Huge Files
+cd /Volumes/LaCie/Dev/find-huge-files
+java -jar target/find-huge-files-1.0.0.jar "$@"

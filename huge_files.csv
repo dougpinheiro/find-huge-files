@@ -1,0 +1,21 @@
+Rank,File Name,Absolute Path,Size (Bytes),Size (Human),Last Modified,Owner
+1,Docker.raw,/Users/dougcpinheiro/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw,1099511627776,"1,00 TB",2026-10-24T13:03:29.156616812,dougcpinheiro
+2,rootfs.img,/Users/dougcpinheiro/Library/Application Support/Claude/vm_bundles/claudevm.bundle/rootfs.img,10737418240,"10,00 GB",2026-09-15T22:18:05.784385546,dougcpinheiro
+3,9d10e8430ae4f721af738f20f7cef7e58b5fcb0491ba8378d7a2360dd511c79b--mactex-20260324.pkg,/Users/dougcpinheiro/Library/Caches/Homebrew/downloads/9d10e8430ae4f721af738f20f7cef7e58b5fcb0491ba8378d7a2360dd511c79b--mactex-20260324.pkg,6865013189,"6,39 GB",2026-03-24T18:03:18,dougcpinheiro
+4,aula.mp4,/Users/dougcpinheiro/Library/CloudStorage/OneDrive-Pessoal/aula.mp4,3928166157,"3,66 GB",2023-06-06T16:41:28,dougcpinheiro
+5,n8n.tar,/Users/dougcpinheiro/containers/n8n.tar,2656782336,"2,47 GB",2026-06-15T23:28:24.669041739,dougcpinheiro
+6,t5-v1_1-xxl-encoder-Q3_K_S.gguf,/Users/dougcpinheiro/ComfyUI-Installs/MyComfy/ComfyUI/models/text_encoders/t5/t5-v1_1-xxl-encoder-Q3_K_S.gguf,2099467456,"1,96 GB",2026-06-15T00:58:44.832166471,dougcpinheiro
+7,model.pth,/Users/dougcpinheiro/Library/Application Support/tts/tts_models--multilingual--multi-dataset--xtts_v2/model.pth,1867929118,"1,74 GB",2026-06-21T10:47:49.981692071,dougcpinheiro
+8,model.safetensors,/Users/dougcpinheiro/ComfyUI-Installs/MyComfy/ComfyUI/models/tts/Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/model.safetensors,682293092,"650,69 MB",2026-07-12T14:43:01.153046406,dougcpinheiro
+9,comfyui-standalone-mac-mps-v0.20.1-env1.tar.gz,/Users/dougcpinheiro/Library/Application Support/Comfy Desktop/download-cache/v0.20.1-env1_mac-mps/comfyui-standalone-mac-mps-v0.20.1-env1.tar.gz,580674701,"553,77 MB",2026-06-08T22:13:19.768744013,dougcpinheiro
+10,postgresql.tar,/Users/dougcpinheiro/containers/containers/postgresql.tar,439082496,"418,74 MB",2026-06-15T23:19:39.491158825,dougcpinheiro
+11,Arquitetura_da_Consciência__O_Jardim_do_Vazio.mp4,/Users/dougcpinheiro/Meu Drive/meditation_sounds/Published/Arquitetura_da_Consciência__O_Jardim_do_Vazio.mp4,413501728,"394,35 MB",2026-07-17T07:32:56,dougcpinheiro
+12,Electron Framework,/Users/dougcpinheiro/Library/Caches/com.microsoft.VSCode.ShipIt/update.Kk0XRRZ/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework,406605104,"387,77 MB",2026-10-22T19:19:13,dougcpinheiro
+13,Electron Framework,/Users/dougcpinheiro/Documents/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework,406604896,"387,77 MB",2026-10-15T04:36:01,dougcpinheiro
+14,audiovae.pth,/Users/dougcpinheiro/ComfyUI-Shared/models/tts/VoxCPM/VoxCPM2/audiovae.pth,376951122,"359,49 MB",2026-07-11T14:36:01.211729573,dougcpinheiro
+15,606bbedf73805cb9758e7b3071e24075.m4a.pcm,/Users/dougcpinheiro/Movies/CapCut/User Data/Cache/recognize/606bbedf73805cb9758e7b3071e24075.m4a.pcm,345653292,"329,64 MB",2025-05-16T22:24:05.572705523,dougcpinheiro
+16,libtorch_cpu.dylib,/Users/dougcpinheiro/venv/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib,337911904,"322,26 MB",2026-07-09T21:41:02.79774087,dougcpinheiro
+17,kokoro_v1.onnx,/Users/dougcpinheiro/ComfyUI-Installs/MyComfy/ComfyUI/custom_nodes/comfyui-kokoro/kokoro_v1.onnx,325532387,"310,45 MB",2026-07-09T22:53:13.511994152,dougcpinheiro
+18,kokoro_v1.onnx,/Users/dougcpinheiro/Documents/ComfyUI/custom_nodes/comfyui-kokoro/kokoro_v1.onnx,325532387,"310,45 MB",2025-05-14T23:48:47.13309299,dougcpinheiro
+19,claude,/Users/dougcpinheiro/Library/Application Support/Claude/claude-code/2.1.308/a93ded4b1b47/claude.app/Contents/MacOS/claude,274675680,"261,95 MB",2026-10-22T04:37:00,dougcpinheiro
+20,model.safetensors,/Users/dougcpinheiro/ComfyUI-Installs/MyComfy/ComfyUI/models/tts/Qwen3-TTS-12Hz-1.7B-CustomVoice/model.safetensors,269484032,"257,00 MB",2026-07-12T15:10:14.855768684,dougcpinheiro

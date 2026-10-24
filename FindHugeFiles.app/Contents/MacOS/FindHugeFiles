@@ -1,0 +1,93 @@
+#!/bin/bash
+
+# Find Huge Files - Terminal Launcher
+# Opens a Terminal window and runs the scan with sudo
+
+# Get the app bundle directory
+APP_BUNDLE="$(cd "$(dirname "$0")/../.." && pwd)"
+PROJECT_DIR="$(dirname "$APP_BUNDLE")"
+CONFIG_FILE="$APP_BUNDLE/Contents/Resources/config.sh"
+JAR_PATH="$APP_BUNDLE/Contents/Resources/find-huge-files-1.0.0.jar"
+
+# Load configuration
+if [[ -f "$CONFIG_FILE" ]]; then
+    source "$CONFIG_FILE"
+else
+    SCAN_ROOT="/"
+    TOP_N=20
+    MIN_SIZE="0"
+    EXCLUDE_PATHS="/System,/private,/dev,/proc,/sys,/run,/tmp,/var/tmp"
+    FOLLOW_LINKS=false
+    OUTPUT_DIR="$HOME/FindHugeFilesResults"
+    OUTPUT_FORMAT="all"
+    QUIET=false
+    JAVA_OPTS="-Xmx512m"
+fi
+
+TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+OUTPUT_FILE="$OUTPUT_DIR/scan_$TIMESTAMP"
+
+# Create output directory
+mkdir -p "$OUTPUT_DIR"
+
+# Check if JAR exists
+if [[ ! -f "$JAR_PATH" ]]; then
+    osascript -e 'display dialog "JAR not found at:\n'"$JAR_PATH"'\n\nPlease build the project first with: mvn clean package" buttons {"OK"} default button "OK" with icon stop'
+    exit 1
+fi
+
+# Build command
+JAVA_CMD="java $JAVA_OPTS -jar '$JAR_PATH' '$SCAN_ROOT' --top '$TOP_N' --output '$OUTPUT_FILE' --format '$OUTPUT_FORMAT' --exclude '$EXCLUDE_PATHS'"
+[[ "$MIN_SIZE" != "0" && -n "$MIN_SIZE" ]] && JAVA_CMD+=" --min-size '$MIN_SIZE'"
+[[ "$FOLLOW_LINKS" == "true" ]] && JAVA_CMD+=" --follow-links"
+[[ "$QUIET" == "true" ]] && JAVA_CMD+=" --quiet"
+
+# Create a temporary script to run in Terminal
+TMP_SCRIPT=$(mktemp /tmp/findhugefiles_XXXXXX.sh)
+cat > "$TMP_SCRIPT" <<'SCRIPTEOF'
+#!/bin/bash
+echo "=========================================="
+echo "  Find Huge Files - Filesystem Scanner"
+echo "=========================================="
+echo ""
+echo "Scanning: $SCAN_ROOT"
+echo "Top: $TOP_N files"
+echo "Output: $OUTPUT_DIR"
+echo ""
+echo "Running with sudo (enter password when prompted)..."
+echo ""
+
+# Run the command with sudo
+sudo bash -c "$JAVA_CMD"
+
+EXIT_CODE=$?
+echo ""
+if [[ $EXIT_CODE -eq 0 ]]; then
+    echo "✅ Scan completed successfully!"
+    echo "Results saved to: $OUTPUT_DIR"
+    # Open results folder
+    open "$OUTPUT_DIR"
+else
+    echo "❌ Scan failed with exit code $EXIT_CODE"
+fi
+echo ""
+echo "Press any key to close this window..."
+read -n 1
+SCRIPTEOF
+
+# Replace variables in the script
+sed -i '' "s|\$SCAN_ROOT|$SCAN_ROOT|g" "$TMP_SCRIPT"
+sed -i '' "s|\$TOP_N|$TOP_N|g" "$TMP_SCRIPT"
+sed -i '' "s|\$OUTPUT_DIR|$OUTPUT_DIR|g" "$TMP_SCRIPT"
+sed -i '' "s|\$JAVA_CMD|$JAVA_CMD|g" "$TMP_SCRIPT"
+
+chmod +x "$TMP_SCRIPT"
+
+# Open Terminal and run the script
+osascript <<EOF
+tell application "Terminal"
+    activate
+    do script "$TMP_SCRIPT"
+    set custom title of front window to "Find Huge Files Scanner"
+end tell
+EOF
